@@ -1,0 +1,86 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+body{
+	/*background-image:url("../slike/dice22.jpg");
+	background-size: cover;
+*/
+	background-color: #01687B;
+}
+
+.glavni{
+
+	margin-top: 20px;
+	display: flex;
+  justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+.pisava{
+	font-family:hoedown;
+	font-size:35px;
+	font-weight:bold;
+	display:inline-block;
+	text-align:center;
+}
+
+
+h3{
+	margin-top:50px;
+	text-align:center;
+	font-size:35px;
+}
+
+h2{
+
+	text-align:center;
+}
+
+#prvi{
+
+	border:7px gold solid;
+	border-radius: 10px;
+	width:200px;
+	height:600px;
+	/*
+	margin-top:50px;
+	margin-right:180px;
+	float:right;
+	*/
+	font-family:hoedown;
+	text-align:center;
+	order: 2;
+}
+#drugi{
+	border:7px silver solid;
+  border-radius: 10px;
+	width:200px;
+	height:600px;
+	/*
+	float:left;
+	margin-left:330px;
+	margin-top:250px;
+	*/
+	font-family:hoedown;
+	text-align:center;
+	order: 1;
+}
+
+#tretji{
+	border:7px #cd7f32 solid;
+	border-radius: 10px;
+	width:200px;
+	height:600px;
+	/*
+	float:right;
+	margin-top:350px;
+	margin-right:240px;
+	*/
+	font-family:hoedown;
+	text-align:center;
+	order: 3;
+
+}

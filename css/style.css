@@ -1,0 +1,84 @@
+body{
+
+		background-color: #01687B;
+		font-family: 'Boogaloo', cursive;
+}
+
+.rezultati{
+
+	border: solid black 10px;
+	width: 920px;
+	height: 620px;
+	margin: 0 auto;
+
+}
+
+.igralci{
+
+	border: solid black 10px;
+	width: 920px;
+	height: 600px;
+	margin: 0 auto;
+
+
+}
+
+form{
+
+	display: flex;
+  justify-content: space-around;
+	flex-wrap: wrap;
+
+
+}
+
+h1{
+	margin-top: 0;
+		text-align: center;
+		font-size: 50px;
+
+}
+
+
+.player{
+	border: solid black 2px;
+	width: 120px;
+	height: 80px;
+	text-align: center;
+	margin: 10px ;
+	font-size: 30px;
+
+}
+
+
+.met{
+	border: solid black 2px;
+	width: 120px;
+	height: 80px;
+	text-align: center;
+	margin: 10px ;
+	font-size: 16px;
+}
+
+
+input[type=submit] {
+	background-color: Transparent;
+	border: none;
+	border-color: transparent;
+	margin: 100px;
+  width: 398px;
+	height:144px;
+	background-image:url("../slike/play.png");
+}
+
+
+.animacija{
+
+	border: solid black 2px;
+	width: 820px;
+	height: 650px;
+	text-align: center;
+	margin: 30px ;
+
+
+}
